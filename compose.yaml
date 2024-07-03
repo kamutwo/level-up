@@ -1,0 +1,7 @@
+services:
+  bot:
+    container_name: discordbot
+    image: discordbot:1.0.0
+    build:
+      context: ./bot
+      dockerfile: node.dockerfile
